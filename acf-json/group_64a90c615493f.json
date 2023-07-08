@@ -1,6 +1,6 @@
 {
     "key": "group_64a90c615493f",
-    "title": "acf-block-json - Pro Repeater With WYSIWYG",
+    "title": "acf-block-json layout - PRO Repeater With WYSIWYG",
     "fields": [
         {
             "key": "field_64a90c615a44b",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801038
+    "modified": 1688802156
 }

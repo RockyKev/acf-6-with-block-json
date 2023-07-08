@@ -1,6 +1,6 @@
 {
     "key": "group_64a90c50ec017",
-    "title": "acf-block-json - Accordion With Text",
+    "title": "acf-block-json layout - Accordion With Text",
     "fields": [
         {
             "key": "field_64a90c50eff19",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688800923
+    "modified": 1688802177
 }
