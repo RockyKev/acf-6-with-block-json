@@ -30,7 +30,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf-block-themes\/text"
+                "value": "acf-block-json\/number"
             }
         ]
     ],
@@ -43,5 +43,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688792500
+    "modified": 1688794318
 }

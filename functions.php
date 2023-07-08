@@ -18,8 +18,18 @@ add_filter( 'block_categories_all' , function( $categories ) {
 } );
 
 // register all the blocks
+register_block_type( get_template_directory() . '/blocks/acf-basic/email/block.json' );
+register_block_type( get_template_directory() . '/blocks/acf-basic/number/block.json' );
+register_block_type( get_template_directory() . '/blocks/acf-basic/password/block.json' );
+register_block_type( get_template_directory() . '/blocks/acf-basic/range/block.json' );
 register_block_type( get_template_directory() . '/blocks/acf-basic/text/block.json' );
+register_block_type( get_template_directory() . '/blocks/acf-basic/text-area/block.json' );
+register_block_type( get_template_directory() . '/blocks/acf-basic/url/block.json' );
 
+
+
+// TODO: create function that loops through all the blocks.
+// https://developer.wordpress.org/reference/functions/register_block_type/#comment-6248
 
 
 

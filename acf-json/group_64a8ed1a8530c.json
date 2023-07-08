@@ -27,7 +27,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf-block-themes\/text"
+                "value": "acf-block-json\/email"
             }
         ]
     ],
@@ -40,5 +40,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688792513
+    "modified": 1688794273
 }

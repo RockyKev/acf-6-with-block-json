@@ -15,9 +15,7 @@
 
 <?php get_header(); ?>
 
-<section role="main" class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-
-<h1> Hello </h1>
+<section role="main" class="max-w-screen-xl mx-auto p-4">
 <?php the_content(); ?>
 </section>
 
