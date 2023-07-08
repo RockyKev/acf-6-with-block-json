@@ -1,6 +1,6 @@
 {
     "key": "group_64a909a69c320",
-    "title": "acf-block-json - True False With Text",
+    "title": "acf-block-json choice - True False With Text",
     "fields": [
         {
             "key": "field_64a909a6a1288",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799930
+    "modified": 1688802053
 }

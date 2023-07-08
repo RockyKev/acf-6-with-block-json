@@ -1,6 +1,6 @@
 {
     "key": "group_64a907be1c884",
-    "title": "acf-block-json - Time Picker",
+    "title": "acf-block-json advanced - Time Picker",
     "fields": [
         {
             "key": "field_64a907be21044",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799491
+    "modified": 1688801899
 }

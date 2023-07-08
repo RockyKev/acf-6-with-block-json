@@ -1,6 +1,6 @@
 {
     "key": "group_64a90b25e6b00",
-    "title": "acf-block-json - Image",
+    "title": "acf-block-json content - Image",
     "fields": [
         {
             "key": "field_64a90b25ed953",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688800173
+    "modified": 1688802103
 }

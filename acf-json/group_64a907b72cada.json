@@ -1,6 +1,6 @@
 {
     "key": "group_64a907b72cada",
-    "title": "acf-block-json - Date Time Picker",
+    "title": "acf-block-json advanced - Date Time Picker",
     "fields": [
         {
             "key": "field_64a907b7314e3",
@@ -39,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799458
+    "modified": 1688801888
 }

@@ -1,6 +1,6 @@
 {
     "key": "group_64a909ad1917c",
-    "title": "acf-block-json - Checkbox with Text",
+    "title": "acf-block-json choice - Checkbox with Text",
     "fields": [
         {
             "key": "field_64a909ad1cd18",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799832
+    "modified": 1688802041
 }

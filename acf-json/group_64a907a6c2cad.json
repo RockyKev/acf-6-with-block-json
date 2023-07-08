@@ -1,6 +1,6 @@
 {
     "key": "group_64a907a6c2cad",
-    "title": "acf-block-json - Color Picker",
+    "title": "acf-block-json advanced - Color Picker",
     "fields": [
         {
             "key": "field_64a907a6c904d",
@@ -39,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799313
+    "modified": 1688801878
 }

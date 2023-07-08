@@ -1,6 +1,6 @@
 {
     "key": "group_64a909af15c80",
-    "title": "acf-block-json - Button Group with Text",
+    "title": "acf-block-json choice - Button Group with Text",
     "fields": [
         {
             "key": "field_64a909af1dcc1",
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799815
+    "modified": 1688802037
 }

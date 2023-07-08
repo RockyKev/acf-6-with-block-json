@@ -1,6 +1,6 @@
 {
     "key": "group_64a8ed1a8530c",
-    "title": "acf-block-json - Email",
+    "title": "acf-block-json basic - Email",
     "fields": [
         {
             "key": "field_64a8ed1a8bccf",
@@ -40,5 +40,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688794273
+    "modified": 1688801957
 }

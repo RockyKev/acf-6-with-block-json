@@ -1,6 +1,6 @@
 {
     "key": "group_64a907bc45efd",
-    "title": "acf-block-json - Google Map",
+    "title": "acf-block-json advanced - Google Map",
     "fields": [
         {
             "key": "field_64a907bc4a401",
@@ -40,5 +40,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688799444
+    "modified": 1688801892
 }
