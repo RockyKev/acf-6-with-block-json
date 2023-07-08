@@ -1,6 +1,6 @@
 <?php 
 
-// Text Field
+// TextArea Field
 // https://www.advancedcustomfields.com/resources/textarea/
 
 $textArea = esc_html(get_field('text_area'));

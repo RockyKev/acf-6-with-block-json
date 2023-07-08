@@ -1,6 +1,6 @@
 <?php 
 
-// Text Field
+// Number Field
 // https://www.advancedcustomfields.com/resources/number/
 
 $number = esc_html(get_field('number'));

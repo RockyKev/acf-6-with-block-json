@@ -1,18 +1,18 @@
 <?php 
 
-// Text Field
+// Color Field
 // https://www.advancedcustomfields.com/resources/color-picker/
 
-$email = esc_html(get_field('email'));
+$color = get_field('color_picker');
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
 
-<div class="outline outline-4 outline-blue-500 py-4 my-4 <?= $additionalClasses; ?>">
+<div class="outline outline-4 outline-green-500 py-4 my-4 <?= $additionalClasses; ?>">
 
-    <h1 class="text-4xl underline pb-4">ACF-basic/Email</h1>
+    <h1 class="text-4xl underline pb-4">ACF-advanced/Color Picker</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p><span style="color:<?= $color; ?>">Test Color change</p>
 
 </div>
 

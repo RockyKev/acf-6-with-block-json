@@ -1,7 +1,7 @@
 <?php 
 
-// Text Field
-// https://www.advancedcustomfields.com/resources/text/
+// Range Field
+// https://www.advancedcustomfields.com/resources/range/
 
 $range = esc_html(get_field('range'));
 

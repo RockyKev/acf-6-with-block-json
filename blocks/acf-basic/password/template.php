@@ -1,6 +1,6 @@
 <?php 
 
-// Text Field
+// Password Field
 // https://www.advancedcustomfields.com/resources/password/
 
 $password = esc_html(get_field('password'));

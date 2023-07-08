@@ -1,6 +1,6 @@
 <?php 
 
-// Text Field
+// Email Field
 // https://www.advancedcustomfields.com/resources/email/
 
 $email = esc_html(get_field('email'));

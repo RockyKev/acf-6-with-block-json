@@ -1,6 +1,6 @@
 <?php 
 
-// Text Field
+// URL Field
 // https://www.advancedcustomfields.com/resources/url/
 
 $url = esc_attr(get_field('url'));

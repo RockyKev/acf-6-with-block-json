@@ -9,5 +9,7 @@
     "acf": {
         "mode": "preview",
         "renderTemplate": "template.php"
-    }
+    },
+    "script": ["file:./script.js", "https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=Function.prototype"],
+    "style": "file:./style.css"
 }
