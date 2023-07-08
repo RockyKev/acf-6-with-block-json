@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90fd742623",
-            "label": "url",
-            "name": "url",
+            "label": "Post Object",
+            "name": "post_object",
             "aria-label": "",
-            "type": "url",
+            "type": "post_object",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,17 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "post_type": [
+                "page"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "return_format": "object",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 1
         }
     ],
     "location": [
@@ -38,5 +47,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801371
+    "modified": 1688841936
 }

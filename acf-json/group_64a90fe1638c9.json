@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90fe1680d0",
-            "label": "url",
-            "name": "url",
+            "label": "Relationship",
+            "name": "relationship",
             "aria-label": "",
-            "type": "url",
+            "type": "relationship",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,22 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "post_type": [
+                "page"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "post_type",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "min": "",
+            "max": "",
+            "elements": ""
         }
     ],
     "location": [
@@ -38,5 +52,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801386
+    "modified": 1688841967
 }

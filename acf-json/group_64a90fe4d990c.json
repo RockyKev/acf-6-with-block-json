@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90fe4dd9d6",
-            "label": "url",
-            "name": "url",
+            "label": "User",
+            "name": "user",
             "aria-label": "",
-            "type": "url",
+            "type": "user",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,10 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "role": "",
+            "return_format": "array",
+            "multiple": 0,
+            "allow_null": 0
         }
     ],
     "location": [
@@ -38,5 +40,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801412
+    "modified": 1688842040
 }
