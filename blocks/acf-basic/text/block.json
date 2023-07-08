@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "acf-block-json/text",
+    "title": "ACF Block Example: Text",
+    "category": "text",
+    "icon": "star",
+    "description": "Shows warning, error or success notices...",
+    "version": "1.0",
+    "textdomain": "acf-block-theme-email",
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    }
+}
