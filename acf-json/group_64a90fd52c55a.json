@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90fd531935",
-            "label": "url",
-            "name": "url",
+            "label": "page link",
+            "name": "page_link",
             "aria-label": "",
-            "type": "url",
+            "type": "page_link",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,16 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "post_type": [
+                "page"
+            ],
+            "post_status": [
+                "publish"
+            ],
+            "taxonomy": "",
+            "allow_archives": 1,
+            "multiple": 0,
+            "allow_null": 0
         }
     ],
     "location": [
@@ -38,5 +46,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801355
+    "modified": 1688841873
 }

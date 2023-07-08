@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90c5dc1ed6",
-            "label": "url",
-            "name": "url",
+            "label": "Clone (Layout - Group With Text)",
+            "name": "clone",
             "aria-label": "",
-            "type": "url",
+            "type": "clone",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,13 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "clone": [
+                "group_64a90c57a9db5"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
         }
     ],
     "location": [
@@ -38,5 +43,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802146
+    "modified": 1688841233
 }

@@ -1,13 +1,13 @@
 {
-    "key": "group_64a90c50ec017",
-    "title": "acf-block-json layout - Accordion With Text",
+    "key": "group_64a9a77d850b8",
+    "title": "acf-block-json choice – Radio Button With Text",
     "fields": [
         {
-            "key": "field_64a90c50eff19",
-            "label": "Accordion 1",
-            "name": "",
+            "key": "field_64a9a77d8ba01",
+            "label": "radio",
+            "name": "radio",
             "aria-label": "",
-            "type": "accordion",
+            "type": "radio",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,19 +16,35 @@
                 "class": "",
                 "id": ""
             },
-            "open": 1,
-            "multi_expand": 0,
-            "endpoint": 0
+            "choices": {
+                "add-text": "Add Paragraph Text Field",
+                "add-quote": "Add Quote Field",
+                "add-span": "Add Span Field"
+            },
+            "default_value": "",
+            "return_format": "value",
+            "allow_null": 0,
+            "other_choice": 0,
+            "layout": "vertical",
+            "save_other_choice": 0
         },
         {
-            "key": "field_64a9ab562fb1e",
-            "label": "Accordion Text Field 1",
-            "name": "accordion_text_field_1",
+            "key": "field_64a9a77d8f49e",
+            "label": "Add Paragraph",
+            "name": "add_paragraph",
             "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a9a77d8ba01",
+                        "operator": "==",
+                        "value": "add-text"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -41,32 +57,22 @@
             "append": ""
         },
         {
-            "key": "field_64a9ab5f2fb1f",
-            "label": "Accordion 2",
-            "name": "",
-            "aria-label": "",
-            "type": "accordion",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "open": 1,
-            "multi_expand": 0,
-            "endpoint": 0
-        },
-        {
-            "key": "field_64a9ab752fb21",
-            "label": "Accordion Text Field 2",
-            "name": "accordion_text_field_2",
+            "key": "field_64a9a77d92ef8",
+            "label": "Add Quote",
+            "name": "add_quote",
             "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a9a77d8ba01",
+                        "operator": "==",
+                        "value": "add-quote"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -79,32 +85,22 @@
             "append": ""
         },
         {
-            "key": "field_64a9ab6e2fb20",
-            "label": "Accordion 3",
-            "name": "",
-            "aria-label": "",
-            "type": "accordion",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "open": 1,
-            "multi_expand": 0,
-            "endpoint": 0
-        },
-        {
-            "key": "field_64a9ab792fb22",
-            "label": "Accordion Text Field 3",
-            "name": "accordion_text_field_3",
+            "key": "field_64a9a77d96982",
+            "label": "Add Span",
+            "name": "add_span",
             "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
-            "conditional_logic": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a9a77d8ba01",
+                        "operator": "==",
+                        "value": "add-span"
+                    }
+                ]
+            ],
             "wrapper": {
                 "width": "",
                 "class": "",
@@ -122,7 +118,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf-block-json\/button-group-with-text"
+                "value": "acf-block-json\/checkbox-with-text"
             }
         ]
     ],
@@ -135,5 +131,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688841098
+    "modified": 1688840130
 }

@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a909ad1cd18",
-            "label": "url",
-            "name": "url",
+            "label": "checkbox",
+            "name": "checkbox",
             "aria-label": "",
-            "type": "url",
+            "type": "checkbox",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,102 @@
                 "class": "",
                 "id": ""
             },
+            "choices": {
+                "add-text": "Add Paragraph Text Field",
+                "add-quote": "Add Quote Field",
+                "add-span": "Add Span Field"
+            },
+            "default_value": [],
+            "return_format": "value",
+            "allow_custom": 0,
+            "layout": "vertical",
+            "toggle": 0,
+            "save_custom": 0,
+            "custom_choice_button_text": "Add new choice"
+        },
+        {
+            "key": "field_64a9a66626b64",
+            "label": "Add Paragraph",
+            "name": "add_paragraph",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a909ad1cd18",
+                        "operator": "==",
+                        "value": "add-text"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
             "default_value": "",
-            "placeholder": ""
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a9a67826b65",
+            "label": "Add Quote",
+            "name": "add_quote",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a909ad1cd18",
+                        "operator": "==",
+                        "value": "add-quote"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64a9a67e26b66",
+            "label": "Add Span",
+            "name": "add_span",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a909ad1cd18",
+                        "operator": "==",
+                        "value": "add-span"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -38,5 +132,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802041
+    "modified": 1688839838
 }

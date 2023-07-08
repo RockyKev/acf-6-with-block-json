@@ -4,11 +4,11 @@
     "fields": [
         {
             "key": "field_64a909af1dcc1",
-            "label": "url",
-            "name": "url",
+            "label": "Button Group",
+            "name": "button_group",
             "aria-label": "",
-            "type": "url",
-            "instructions": "",
+            "type": "button_group",
+            "instructions": "When Apples are selected, a text field shows up",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -16,8 +16,64 @@
                 "class": "",
                 "id": ""
             },
+            "choices": {
+                "🍇": "🍇 Grapes",
+                "🍈": "🍈 Melon",
+                "🍉": "🍉 Watermelon",
+                "🍊": "🍊 Tangerine",
+                "🍋": "🍋 Lemon",
+                "🍌": "🍌 Banana",
+                "🍍": "🍍 Pineapple",
+                "🥭": "🥭 Mango",
+                "🍎": "🍎 Red Apple",
+                "🍏": "🍏 Green Apple"
+            },
             "default_value": "",
-            "placeholder": ""
+            "return_format": "value",
+            "allow_null": 0,
+            "layout": "horizontal"
+        },
+        {
+            "key": "field_64a9a46fcff34",
+            "label": "Add more to Apples",
+            "name": "add_more_to_apples",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_64a909af1dcc1",
+                        "operator": "==",
+                        "value": "🍍"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_64a909af1dcc1",
+                        "operator": "==",
+                        "value": "🍎"
+                    }
+                ],
+                [
+                    {
+                        "field": "field_64a909af1dcc1",
+                        "operator": "==",
+                        "value": "🍏"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         }
     ],
     "location": [
@@ -38,5 +94,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802037
+    "modified": 1688839347
 }

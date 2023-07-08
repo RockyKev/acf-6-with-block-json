@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90b2a7ada8",
-            "label": "url",
-            "name": "url",
+            "label": "gallery",
+            "name": "gallery",
             "aria-label": "",
-            "type": "url",
+            "type": "gallery",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,19 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "return_format": "array",
+            "library": "all",
+            "min": "",
+            "max": "",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "insert": "append",
+            "preview_size": "medium"
         }
     ],
     "location": [
@@ -38,5 +49,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802112
+    "modified": 1688840608
 }

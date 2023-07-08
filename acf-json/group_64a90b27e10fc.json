@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90b27e78a2",
-            "label": "url",
-            "name": "url",
+            "label": "oembed",
+            "name": "oembed",
             "aria-label": "",
-            "type": "url",
+            "type": "oembed",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,8 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "width": "",
+            "height": ""
         }
     ],
     "location": [
@@ -38,5 +38,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802108
+    "modified": 1688840529
 }

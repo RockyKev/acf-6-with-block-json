@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90c5c27bc5",
-            "label": "url",
-            "name": "url",
+            "label": "message",
+            "name": "",
             "aria-label": "",
-            "type": "url",
+            "type": "message",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,9 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "message": "",
+            "new_lines": "wpautop",
+            "esc_html": 0
         }
     ],
     "location": [
@@ -38,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802187
+    "modified": 1688840849
 }

@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90b2cc835a",
-            "label": "url",
-            "name": "url",
+            "label": "wysiwyg",
+            "name": "wysiwyg",
             "aria-label": "",
-            "type": "url",
+            "type": "wysiwyg",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -17,7 +17,10 @@
                 "id": ""
             },
             "default_value": "",
-            "placeholder": ""
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
         }
     ],
     "location": [
@@ -38,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802118
+    "modified": 1688840572
 }

@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90c5f951e3",
-            "label": "url",
-            "name": "url",
+            "label": "Flexible Content Group",
+            "name": "flexible_content_group",
             "aria-label": "",
-            "type": "url",
+            "type": "flexible_content",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,161 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "layouts": {
+                "layout_64a9ac3f9bf5a": {
+                    "key": "layout_64a9ac3f9bf5a",
+                    "name": "flexible_content_1",
+                    "label": "Flexible Content 1",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64a9ac699cb6e",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64a9ac729cb6f": {
+                    "key": "layout_64a9ac729cb6f",
+                    "name": "flexible_content_2",
+                    "label": "Flexible Content 2",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64a9ac729cb70",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64a9ac799cb71": {
+                    "key": "layout_64a9ac799cb71",
+                    "name": "flexible_content_3",
+                    "label": "Flexible Content 3",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64a9ac799cb72",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64a9ac7e9cb73": {
+                    "key": "layout_64a9ac7e9cb73",
+                    "name": "flexible_content_4",
+                    "label": "Flexible Content 4",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64a9ac7e9cb74",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_64a9ac839cb75": {
+                    "key": "layout_64a9ac839cb75",
+                    "name": "flexible_content_5",
+                    "label": "Flexible Content 5",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_64a9ac839cb76",
+                            "label": "Text",
+                            "name": "text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "maxlength": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Row"
         }
     ],
     "location": [
@@ -38,5 +191,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802150
+    "modified": 1688841407
 }

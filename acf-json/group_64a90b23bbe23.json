@@ -4,10 +4,10 @@
     "fields": [
         {
             "key": "field_64a90b23c2bc8",
-            "label": "url",
-            "name": "url",
+            "label": "file",
+            "name": "file",
             "aria-label": "",
-            "type": "url",
+            "type": "file",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -16,8 +16,11 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
-            "placeholder": ""
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -38,5 +41,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688802099
+    "modified": 1688840488
 }
