@@ -1,8 +1,8 @@
 {
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 3,
-    "name": "acf-block-json/password",
-    "title": "ACF Block Json Basic: Password",
+    "name": "acf-block-json/page-link",
+    "title": "ACF Block Json Relational: Page Link",
     "category": "acf-block-json",
     "icon": "welcome-write-blog",
     "version": "1.0.0",

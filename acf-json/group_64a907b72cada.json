@@ -1,0 +1,43 @@
+{
+    "key": "group_64a907b72cada",
+    "title": "acf-block-json - Date Time Picker",
+    "fields": [
+        {
+            "key": "field_64a907b7314e3",
+            "label": "Date Time Picker (d\/m\/T g:i a)",
+            "name": "date_time_picker",
+            "aria-label": "",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y g:i a",
+            "return_format": "d\/m\/Y g:i a",
+            "first_day": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf-block-json\/date-time-picker"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1688799458
+}

@@ -1,8 +1,8 @@
 {
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 3,
-    "name": "acf-block-json/password",
-    "title": "ACF Block Json Basic: Password",
+    "name": "acf-block-json/color-picker",
+    "title": "ACF Block Json Advanced: Color Picker",
     "category": "acf-block-json",
     "icon": "welcome-write-blog",
     "version": "1.0.0",

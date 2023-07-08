@@ -2,7 +2,7 @@
     "$schema": "https://schemas.wp.org/trunk/block.json",
     "apiVersion": 3,
     "name": "acf-block-json/text-area",
-    "title": "ACF Block Example: Text Area",
+    "title": "ACF Block Json Basic: Text Area",
     "category": "acf-block-json",
     "icon": "welcome-write-blog",
     "version": "1.0.0",
