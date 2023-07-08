@@ -1,8 +1,12 @@
 <?php
 
 // Enqueue CDN for tailwind
-wp_enqueue_script( 'tailwind_cdn', 'https://cdn.tailwindcss.com' , [], '1.0' );
 
+function my_enqueued_scripts() {
+    wp_enqueue_script( 'tailwind_cdn', 'https://cdn.tailwindcss.com' , [], '1.0' );
+
+}
+add_action( 'wp_enqueue_scripts', 'my_enqueued_scripts' );
 
 // Create a brand new category
 // https://gutenberghub.com/how-to-create-custom-block-category
