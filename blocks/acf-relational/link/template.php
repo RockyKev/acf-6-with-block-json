@@ -3,10 +3,18 @@
 // Link Field
 // https://www.advancedcustomfields.com/resources/link/
 
-$email = esc_html(get_field('email'));
+$link = get_field('link');
+$fullLink = '';
 
-// TODO: Fix
-// link
+if ( $link ) {
+    $link_url = $link['url'];
+    $link_title = $link['title'];
+    $link_target = $link['target'] ? $link['target'] : '_self';
+
+    $fullLink = "<a href='$link_url' target='$link_target'>$link_title</a>";
+}
+   
+
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -15,7 +23,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-relational/Link</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>Test Link: <?= $fullLink; ?></p>
 
 </div>
 
