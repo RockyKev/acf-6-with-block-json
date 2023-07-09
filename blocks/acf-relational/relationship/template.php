@@ -3,10 +3,10 @@
 // Relationship Field
 // https://www.advancedcustomfields.com/resources/relationship/
 
-$email = esc_html(get_field('email'));
+$relationship = get_field('relationship');
 
-// TODO: fix this
-// relationship
+// do_action('qm/debug', 'Relationship Object');
+// do_action('qm/debug', $relationship);
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -15,7 +15,14 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-relational/Relationship</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <div>
+    <?php 
+    foreach ($relationship as $wpObject) {
+        echo "<p>Post Example: " . $wpObject->post_title . " (ID: " . $wpObject->ID .")</p>";
+    }
+
+?> 
+    </div>
 
 </div>
 

@@ -10,9 +10,9 @@ $message = get_field('message');
 // $email = esc_html(get_field('email'));
 
 // $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
-do_action( 'qm/debug', 'Message tag' );
-do_action( 'qm/debug', $block );
-do_action( 'qm/debug', $message );
+// do_action( 'qm/debug', 'Message tag' );
+// do_action( 'qm/debug', $block );
+// do_action( 'qm/debug', $message );
 
 ?>
 

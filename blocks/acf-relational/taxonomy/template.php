@@ -3,10 +3,11 @@
 // Taxonomy Field
 // https://www.advancedcustomfields.com/resources/taxonomy/
 
-$email = esc_html(get_field('email'));
+$taxonomy = get_field('taxonomy');
+// do_action('qm/debug', 'taxonomy Object!!');
+// do_action('qm/debug', $taxonomy);
+// do_action('qm/debug', $taxonomy[0]->name);
 
-// TODO: fix
-// taxonomy
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -15,7 +16,8 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-relational/Taxonomy</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>Taxonomy Example: <?= $taxonomy[0]->name; ?>  with <?= $taxonomy[0]->count; ?> counts (<?= $taxonomy[0]->taxonomy; ?>) </p> 
+
 
 </div>
 

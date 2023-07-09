@@ -5,9 +5,11 @@
 
 $email = esc_html(get_field('email'));
 
+$user = get_field('user');
 
-// TODO: fix this
-// user
+do_action('qm/debug', 'user Object');
+do_action('qm/debug', $user);
+do_action('qm/debug', $user['nickname']);
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -16,7 +18,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-relational/User</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>The user selected is: <?=  $user['display_name'];?> (ID:<?=  $user['ID'];?>) </p>
 
 </div>
 

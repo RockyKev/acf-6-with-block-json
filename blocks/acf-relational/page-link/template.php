@@ -1,12 +1,9 @@
 <?php 
 
 // Page Link Field
-// https://www.advancedcustomfields.com/resources/time-picker/
+// https://www.advancedcustomfields.com/resources/page-link/
 
-$email = esc_html(get_field('email'));
-
-// TODO: Fix
-// page_link
+$pageLink = get_field('page_link');
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -15,7 +12,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-relational/Page-Link</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>Test page link: <?= $pageLink; ?></p>
 
 </div>
 

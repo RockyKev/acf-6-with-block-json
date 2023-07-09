@@ -20,7 +20,7 @@
             "add_term": 1,
             "save_terms": 0,
             "load_terms": 0,
-            "return_format": "id",
+            "return_format": "object",
             "field_type": "checkbox",
             "multiple": 0,
             "allow_null": 0
@@ -44,5 +44,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688841998
+    "modified": 1688886868
 }
