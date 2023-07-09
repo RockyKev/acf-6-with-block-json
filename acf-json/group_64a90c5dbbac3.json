@@ -1,6 +1,6 @@
 {
     "key": "group_64a90c5dbbac3",
-    "title": "acf-block-json layout - PRO Clone",
+    "title": "acf-block-json layout - PRO Clone (Clones Group With Text)",
     "fields": [
         {
             "key": "field_64a90c5dc1ed6",
@@ -43,5 +43,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688841233
+    "modified": 1688858088
 }

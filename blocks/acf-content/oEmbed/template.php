@@ -1,21 +1,19 @@
 <?php 
 
-// Text Field
+// oEmbed Field
 // https://www.advancedcustomfields.com/resources/oembed/
 
-$email = esc_html(get_field('email'));
+$oembed = get_field('oembed');
 
-// TODO: fix
-// oembed
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
 
-<div class="outline outline-4 outline-blue-500 py-4 my-4 <?= $additionalClasses; ?>">
+<div class="embed-container outline outline-4 outline-blue-500 py-4 my-4 <?= $additionalClasses; ?>">
 
 <h1 class="text-4xl underline pb-4">ACF-content/oEmbed</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <?= $oembed; ?>
 
 </div>
 

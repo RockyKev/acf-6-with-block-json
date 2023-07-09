@@ -1,12 +1,28 @@
-<?php 
+<?php
 
 // File Field
 // https://www.advancedcustomfields.com/resources/file/
 
-$email = esc_html(get_field('email'));
+$file = get_field('file');
 
-// TODO: fix
-// file
+if ($file) {
+
+    $url = esc_attr($file['url']);
+    $title = esc_attr($file['title']);
+    $caption = esc_html($file['caption']);
+    $icon = esc_attr($file['icon']);
+
+    // Override the icon if it's a image
+    if ($file['type'] == 'image') {
+        $icon =  esc_attr($file['sizes']['thumbnail']);
+    }
+
+    $showCaption = $caption ? true : false;
+};
+
+
+
+
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -15,8 +31,19 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-content/File</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>Test File below</p>
+
+    <?php if ($showCaption) {
+        echo '<div class="wp-caption">';
+    } ?>
+
+    <a href="<?= $url; ?>" title="<?= $title; ?>">
+        <img src="<?= $icon; ?>" />
+        <span><?= $title; ?></span>
+    </a>
+
+    <?php if ($showCaption) {
+        echo '</div>';
+    } ?>
 
 </div>
-
-

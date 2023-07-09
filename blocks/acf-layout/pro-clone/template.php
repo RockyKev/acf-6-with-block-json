@@ -1,9 +1,11 @@
 <?php 
 
-// Clone Field
+// Clone Field (Cloning Group With Text)
 // https://www.advancedcustomfields.com/resources/clone/
 
-$email = esc_html(get_field('email'));
+$text1 = esc_html(get_field('group_text_1'));
+$text2 = esc_html(get_field('group_text_2'));
+$text3 = esc_html(get_field('group_text_3'));
 
 // TODO: Fix this
 
@@ -14,8 +16,8 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
 <h1 class="text-4xl underline pb-4">ACF-layout/PRO Clone</h1>
 
-    <p>Test email: <?= $email; ?></p>
+    <p>Cloned Group Text Field 1: <?= $text1; ?></p>
+    <p>Cloned Group Text Field 2: <?= $text2; ?></p>
+    <p>Cloned Group Text Field 3: <?= $text3; ?></p>
 
 </div>
-
-

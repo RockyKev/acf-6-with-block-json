@@ -3,7 +3,7 @@
 // Flexible Content Field
 // https://www.advancedcustomfields.com/resources/flexible-content/
 
-$email = esc_html(get_field('email'));
+$flexibleContentGroup = get_field('flexible_content_group');
 
 // TODO: fix
 
@@ -13,6 +13,29 @@ $email = esc_html(get_field('email'));
 // flexible_content_3 -> text
 // flexible_content_4 -> text
 // flexible_content_5 -> text
+
+// switch ($number) {
+//     case 1:
+//       echo "The number is 1.";
+//       break;
+//     case 2:
+//       echo "The number is 2.";
+//       break;
+//     case 3:
+//       echo "The number is 3.";
+//       break;
+//     case 4:
+//       echo "The number is 4.";
+//       break;
+//     case 5:
+//       echo "The number is 5.";
+//       break;
+//     default:
+//       echo "The number is not 1, 2, 3, 4, or 5.";
+//   }
+
+do_action( 'qm/debug', 'Flexible Content tag' );
+do_action( 'qm/debug', $flexibleContentGroup );
 
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
