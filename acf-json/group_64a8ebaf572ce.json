@@ -30,6 +30,13 @@
                 "operator": "==",
                 "value": "acf-block-json\/text"
             }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf-block-json\/text-with-block-supports"
+            }
         ]
     ],
     "menu_order": 0,
@@ -41,5 +48,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688801971
+    "modified": 1688922982
 }

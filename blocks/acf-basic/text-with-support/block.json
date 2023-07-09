@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "acf-block-json/text-with-block-supports",
+    "title": "ACF Block Json Basic: Text with Block Supports",
+    "category": "acf-block-json",
+    "icon": "welcome-write-blog",
+    "version": "1.0.0",
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "template.php"
+    },
+    "supports": {
+        "anchor": true,
+        "align": true,
+        "color": {
+            "background": true,
+            "text": true
+        }, 
+        "spacing": {
+            "margin": true,  
+            "padding": true, 
+            "blockGap": true
+        },
+        "typography": {
+            "fontSize": true
+        }
+    }
+}

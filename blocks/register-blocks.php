@@ -2,15 +2,21 @@
 
 function acf_blocks_json_register_blocks() {
 
+    // TODO: A function that looks through the files and imports all json correctly
+
     // register all the blocks
     register_block_type(get_template_directory() . '/blocks/acf-basic/email/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-basic/number/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-basic/password/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-basic/range/block.json');
+ 
     register_block_type(get_template_directory() . '/blocks/acf-basic/text/block.json');
+    register_block_type(get_template_directory() . '/blocks/acf-basic/text-with-support/block.json');    
+
     register_block_type(get_template_directory() . '/blocks/acf-basic/text-area/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-basic/url/block.json');
 
+    // 
     register_block_type(get_template_directory() . '/blocks/acf-advanced/color-picker/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-advanced/date-picker/block.json');
     register_block_type(get_template_directory() . '/blocks/acf-advanced/date-time-picker/block.json');
