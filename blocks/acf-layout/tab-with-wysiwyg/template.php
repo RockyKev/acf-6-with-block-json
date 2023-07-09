@@ -4,9 +4,9 @@
 // https://www.advancedcustomfields.com/resources/tab/
 
 
-$wysiwyg1 = get_field('tab_wysiwyg_field_1'));
-$wysiwyg2 = get_field('tab_wysiwyg_field_2'));
-$wysiwyg3 = get_field('tab_wysiwyg_field_3'));
+$wysiwyg1 = get_field('tab_wysiwyg_field_1');
+$wysiwyg2 = get_field('tab_wysiwyg_field_2');
+$wysiwyg3 = get_field('tab_wysiwyg_field_3');
 
 
 

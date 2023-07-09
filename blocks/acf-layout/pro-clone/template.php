@@ -3,9 +3,19 @@
 // Clone Field (Cloning Group With Text)
 // https://www.advancedcustomfields.com/resources/clone/
 
-$text1 = esc_html(get_field('group_text_1'));
-$text2 = esc_html(get_field('group_text_2'));
-$text3 = esc_html(get_field('group_text_3'));
+$clone = get_field("clone");
+$cloneGroup = $clone['group'];
+
+$text1 = esc_html($cloneGroup['group_text_1']);
+$text2 = esc_html($cloneGroup['group_text_2']);
+$text3 = esc_html($cloneGroup['group_text_3']);
+
+// do_action( 'qm/debug', 'Pro Clone' );
+// do_action( 'qm/debug', $cloneGroup );
+
+// do_action( 'qm/debug', $text1 );
+// do_action( 'qm/debug', $text2 );
+// do_action( 'qm/debug', $text3 );
 
 // TODO: Fix this
 

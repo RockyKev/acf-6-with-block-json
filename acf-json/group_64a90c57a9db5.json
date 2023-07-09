@@ -86,7 +86,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf-block-json\/button-group-with-text"
+                "value": "acf-block-json\/group-with-text"
             }
         ]
     ],
@@ -99,5 +99,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688841162
+    "modified": 1688883414
 }

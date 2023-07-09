@@ -5,19 +5,8 @@
 
 $repeaterContent = get_field('repeater');
 
-
-$rows = get_field('repeater_field_name');
-if ($rows) {
-    echo '<ul class="slides">';
-    foreach ($rows as $row) {
-        $image = $row['image'];
-        echo '<li>';
-        echo wp_get_attachment_image($image, 'full');
-        echo wpautop($row['caption']);
-        echo '</li>';
-    }
-    echo '</ul>';
-}
+do_action('qm/debug', 'Repeater tag');
+do_action('qm/debug', $repeaterContent);
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
@@ -28,7 +17,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <?php if ($repeaterContent) {
         foreach ($repeaterContent as $content) {
-            echo "<div>$content</div>";
+            echo "<div>" . $content['wysiwyg']. "</div>";
         }
     }; 
     ?>

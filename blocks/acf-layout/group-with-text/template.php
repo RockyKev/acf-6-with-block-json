@@ -3,10 +3,18 @@
 // Group Field
 // https://www.advancedcustomfields.com/resources/group/
 
-$text1 = esc_html(get_field('group_text_1'));
-$text2 = esc_html(get_field('group_text_2'));
-$text3 = esc_html(get_field('group_text_3'));
+$group = get_field("group");
 
+
+
+$text1 = esc_html($group['group_text_1']);
+$text2 = esc_html($group['group_text_2']);
+$text3 = esc_html($group['group_text_3']);
+
+// do_action( 'qm/debug', 'Group With Text' );
+// do_action( 'qm/debug', $text1 );
+// do_action( 'qm/debug', $text2 );
+// do_action( 'qm/debug', $text3 );
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>

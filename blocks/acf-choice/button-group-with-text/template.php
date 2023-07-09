@@ -18,10 +18,10 @@ if (str_contains($buttonLabel, 'Apple')) {
     $addMoreToApples = esc_html(get_field('add_more_to_apples'));
 }
 
-do_action( 'qm/debug',  'select-with-text' );
-do_action( 'qm/debug',  $buttonValue );
-do_action( 'qm/debug',  $buttonLabel );
-do_action( 'qm/debug',  str_contains($buttonLabel, 'Apple') );
+// do_action( 'qm/debug',  'select-with-text' );
+// do_action( 'qm/debug',  $buttonValue );
+// do_action( 'qm/debug',  $buttonLabel );
+// do_action( 'qm/debug',  str_contains($buttonLabel, 'Apple') );
 
 
 
