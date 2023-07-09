@@ -16,7 +16,7 @@
                 "class": "",
                 "id": ""
             },
-            "message": "",
+            "message": "This is a message tag. \r\nThere are messages here. And I can inject things?\r\n<img src=\"https:\/\/placekitten.com\/500\/500\" \/>",
             "new_lines": "wpautop",
             "esc_html": 0
         }
@@ -39,5 +39,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688840849
+    "modified": 1688884288
 }

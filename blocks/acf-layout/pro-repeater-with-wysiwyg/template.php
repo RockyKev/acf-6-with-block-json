@@ -5,8 +5,8 @@
 
 $repeaterContent = get_field('repeater');
 
-do_action('qm/debug', 'Repeater tag');
-do_action('qm/debug', $repeaterContent);
+// do_action('qm/debug', 'Repeater tag');
+// do_action('qm/debug', $repeaterContent);
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>

@@ -9,5 +9,6 @@
     "acf": {
         "mode": "preview",
         "renderTemplate": "template.php"
-    }
+    }, 
+    "style": "file:./style.css"
 }
