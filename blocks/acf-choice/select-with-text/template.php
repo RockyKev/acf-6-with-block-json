@@ -6,22 +6,23 @@
 $select = get_field('select');
 
 if ($select === 'add_paragraph') {
-    $addParagraph = esc_html($select['add_paragraph']);
+    $addParagraph = esc_html(get_field('add_paragraph'));
     $addQuote = '';
     $addSpan = '';
 } else if ($select === 'add_quote') {
     $addParagraph = '';
-    $addQuote = esc_html($select['add_quote']) ?: '';
+    $addQuote = esc_html(get_field('add_quote')) ?: '';
     $addSpan =  '';
 } else if ($select === 'add_span') {
     $addParagraph = '';
     $addQuote = '';
-    $addSpan = esc_html($select['add_span']) ?: '';
+    $addSpan = esc_html(get_field('add_span')) ?: '';
 }
 
-// $addParagraph = esc_html($select['add_paragraph']) ?: '';
-// $addQuote = esc_html($select['add_quote']) ?: '';
-// $addSpan = esc_html($select['add_span']) ?: '';
+// do_action( 'qm/debug',  'select-with-text' );
+// do_action( 'qm/debug',  $select );
+// do_action( 'qm/debug',  $addParagraph );
+
 
 // select
 // add_paragraph

@@ -5,9 +5,9 @@
 
 $datetime = get_field('date_time_picker'); 
 
-do_action( 'qm/debug',  'date-time object' );
-do_action( 'qm/debug',  get_field('date_time_picker') );
-do_action( 'qm/debug',  $datetime );
+// do_action( 'qm/debug',  'date-time object' );
+// do_action( 'qm/debug',  get_field('date_time_picker') );
+// do_action( 'qm/debug',  $datetime );
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>

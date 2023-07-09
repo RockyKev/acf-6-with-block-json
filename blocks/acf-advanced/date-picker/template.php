@@ -9,9 +9,9 @@ $dateObject = DateTime::createFromFormat( $datePattern, get_field('date_picker')
 $date = $dateObject->format('F j, Y'); 
 
 
-do_action( 'qm/debug',  'date object' );
-do_action( 'qm/debug',  get_field('date_picker') );
-do_action( 'qm/debug',  $date );
+// do_action( 'qm/debug',  'date object' );
+// do_action( 'qm/debug',  get_field('date_picker') );
+// do_action( 'qm/debug',  $date );
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>

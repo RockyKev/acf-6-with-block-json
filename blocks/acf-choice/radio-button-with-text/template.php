@@ -11,17 +11,17 @@
 $radio = get_field('radio');
 
 if ($radio === 'add_paragraph') {
-    $addParagraph = esc_html($radio['add_paragraph']);
+    $addParagraph = esc_html(get_field('add_paragraph'));
     $addQuote = '';
     $addSpan = '';
 } else if ($radio === 'add_quote') {
     $addParagraph = '';
-    $addQuote = esc_html($radio['add_quote']) ?: '';
+    $addQuote = esc_html(get_field('add_quote')) ?: '';
     $addSpan =  '';
 } else if ($radio === 'add_span') {
     $addParagraph = '';
     $addQuote = '';
-    $addSpan = esc_html($radio['add_span']) ?: '';
+    $addSpan = esc_html(get_field('add_span')) ?: '';
 }
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';

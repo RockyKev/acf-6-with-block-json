@@ -6,6 +6,7 @@
 $boolean = get_field('true-false');
 
 $booleanAsString = $boolean ? 'true' : 'false';
+$content = $boolean ? get_field('text') : 'No content. Content set to false';
 
 // true-false
 // text
@@ -18,6 +19,8 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
     <h1 class="text-4xl underline pb-4">ACF-Choice/True False With Text</h1>
 
     <p>Test boolean: <?= $booleanAsString; ?></p>
+    <p><?= $content; ?></p>
+
 
 </div>
 

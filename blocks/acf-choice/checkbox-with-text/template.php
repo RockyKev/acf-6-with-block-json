@@ -5,10 +5,11 @@
 
 
 $checkbox = get_field('checkbox');
+$checkboxAsString = json_encode($checkbox);
 
-$addParagraph = esc_html($checkbox['add_paragraph']) ?: '';
-$addQuote = esc_html($checkbox['add_quote']) ?: '';
-$addSpan = esc_html($checkbox['add_span']) ?: '';
+$addParagraph = esc_html(get_field('add_paragraph')) ?: '';
+$addQuote = esc_html(get_field('add_quote')) ?: '';
+$addSpan = esc_html(get_field('add_span')) ?: '';
 
 // checkbox
 // add_paragraph
@@ -22,7 +23,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-Choice/Checkbox With Text</h1>
 
-    <p>The Checkboxes: <?= $checkbox; ?></p>
+    <p>The Checkboxes: <?= $checkboxAsString; ?></p>
 
     <?php if ($addParagraph) {
         echo "<p>$addParagraph</p>";

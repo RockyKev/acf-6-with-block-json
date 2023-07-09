@@ -6,14 +6,23 @@
 // button_group
 // add_more_to_apples
 
-$buttonSelected = get_field('button_group');
+$buttonGroupData = get_field('button_group');
+$buttonValue = $buttonGroupData['value'];
+$buttonLabel = $buttonGroupData['label'];
+
 $showAppleText = false;
 $addMoreToApples = '';
 
-if (str_contains($buttonSelected, 'apple')) {
+if (str_contains($buttonLabel, 'Apple')) {
     $showAppleText = true;
     $addMoreToApples = esc_html(get_field('add_more_to_apples'));
 }
+
+do_action( 'qm/debug',  'select-with-text' );
+do_action( 'qm/debug',  $buttonValue );
+do_action( 'qm/debug',  $buttonLabel );
+do_action( 'qm/debug',  str_contains($buttonLabel, 'Apple') );
+
 
 
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
@@ -23,7 +32,7 @@ $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-cla
 
     <h1 class="text-4xl underline pb-4">ACF-Choice/Button Group With Text</h1>
 
-    <p>The button selected was: <?= $buttonSelected; ?></p>
+    <p>The button selected was: <?= $buttonValue; ?></p>
 
     <p>If there's more content, it'll show up below:</p>
 

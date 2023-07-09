@@ -29,9 +29,9 @@
                 "🍏": "🍏 Green Apple"
             },
             "default_value": "",
-            "return_format": "value",
+            "return_format": "array",
             "allow_null": 0,
-            "layout": "horizontal"
+            "layout": "vertical"
         },
         {
             "key": "field_64a9a46fcff34",
@@ -94,5 +94,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688839347
+    "modified": 1688881831
 }

@@ -17,9 +17,9 @@
                 "id": ""
             },
             "choices": {
-                "add-text": "Add Paragraph Text Field",
-                "add-quote": "Add Quote Field",
-                "add-span": "Add Span Field"
+                "add_paragraph": "Add Paragraph Text Field",
+                "add_quote": "Add Quote Field",
+                "add_span": "Add Span Field"
             },
             "default_value": "",
             "return_format": "value",
@@ -41,7 +41,7 @@
                     {
                         "field": "field_64a9a77d8ba01",
                         "operator": "==",
-                        "value": "add-text"
+                        "value": "add_paragraph"
                     }
                 ]
             ],
@@ -69,7 +69,7 @@
                     {
                         "field": "field_64a9a77d8ba01",
                         "operator": "==",
-                        "value": "add-quote"
+                        "value": "add_quote"
                     }
                 ]
             ],
@@ -97,7 +97,7 @@
                     {
                         "field": "field_64a9a77d8ba01",
                         "operator": "==",
-                        "value": "add-span"
+                        "value": "add_span"
                     }
                 ]
             ],
@@ -118,7 +118,7 @@
             {
                 "param": "block",
                 "operator": "==",
-                "value": "acf-block-json\/checkbox-with-text"
+                "value": "acf-block-json\/radio-button-with-text"
             }
         ]
     ],
@@ -131,5 +131,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1688840130
+    "modified": 1688881277
 }

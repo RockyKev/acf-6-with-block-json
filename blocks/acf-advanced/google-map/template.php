@@ -13,10 +13,12 @@ $googleMapsData = get_field('google_map');
 $latitude =  esc_attr($googleMapsData['lat']);
 $longitude =  esc_attr($googleMapsData['lng']);
 
-function my_acf_init() {
-    acf_update_setting('google_api_key', 'xxx');
-}
-add_action('acf/init', 'my_acf_init');
+if (!function_exists('google_map_add_api_key')) {
+    function google_map_add_api_key() {
+        acf_update_setting('google_api_key', 'xxx');
+    }
+    add_action('acf/init', 'google_map_add_api_key');    
+};
 
 
 
