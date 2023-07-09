@@ -6,10 +6,6 @@
 $galleryImages = get_field('gallery');
 $size = 'full';
 
-// TODO: Review
-// gallery
-
-
 $additionalClasses = !empty($block['className']) ? $block['className'] : 'no-classes-added';
 ?>
 
